@@ -1,0 +1,39 @@
+@media (max-width: 990px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: (1fr)!important;
+    }
+
+    .grid-container img {
+        transform: scale(0.8, 0.9);
+    }
+}
+
+@media (max-width: 750px) {
+
+    .section-marisol,
+    .section-bryan,
+    .section-kevin {
+        display: grid;
+        justify-items: center;
+    }
+
+    .section-marisol img {
+        padding-bottom: 25px;
+    }
+
+    .section-bryan p {
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .only-fight img{
+        width: 35ch;
+    }
+    .blast-training img{
+        width: 33ch;
+    }
+    .ultra-cycle img{
+        width: 34ch;
+    }
+}

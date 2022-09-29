@@ -1,0 +1,39 @@
+footer {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        height: 75px;
+        align-items: center;
+        margin: 0%;
+        background-color: gray;
+        padding-left: 0;
+
+        li {
+            list-style: none;
+            display: grid;
+            justify-items: center;
+            height: 15px;
+            align-content: space-around;
+            grid-template-rows: 35px;
+            a{
+                color: white;
+            &:hover {
+                font-weight: bold;
+                color: white;
+
+                &:active {
+                    color: black;
+                }
+                }
+            }
+
+            .fa-instagram,
+            .fa-whatsapp,
+            .fa-facebook,
+            .fa-message {
+                transform: scale(1.5, 1.5);
+            }
+        }
+    }
+
+}

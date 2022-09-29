@@ -1,0 +1,19 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@import './variables/variables';
+@import './variables/extend';
+
+@import './parciales/header';
+@import './parciales/index';
+@import './parciales/conocenos';
+@import './parciales/programas';
+@import './parciales/galeria';
+@import './parciales/FaQ';
+@import './parciales/footer';
+
+
+@import './parciales/mediaquarys';

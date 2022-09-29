@@ -1,0 +1,181 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+html,
+body {
+  overflow-x: hidden; }
+
+main {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.781)); }
+
+p {
+  margin: 0%;
+  color: white;
+  padding: 15px; }
+
+h1 {
+  color: white;
+  padding: 10px; }
+
+.only-fight h1, .blast-training h1, .ultra-cycle h1 {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center; }
+
+.section-marisol, .section-bryan, .section-kevin {
+  display: flex;
+  align-items: center;
+  padding-left: 6%;
+  padding-right: 6%; }
+
+header {
+  z-index: 2; }
+  header .nav-color {
+    background-color: black; }
+  header .container-fluid {
+    padding: 0% !important; }
+  header .nav-link:hover,
+  header .navbar-brand:hover {
+    font-weight: bold; }
+  header a {
+    color: white !important; }
+  header .dropdown-menu {
+    background-color: black; }
+
+main .banner {
+  width: 100%;
+  height: 400px; }
+
+main .texto-index {
+  color: white; }
+
+main .frame {
+  display: flex;
+  justify-content: center; }
+  main .frame .youtube {
+    margin: 1%; }
+
+.section-marisol {
+  font-size: large; }
+  .section-marisol img {
+    height: 58vh; }
+
+.section-bryan {
+  justify-content: center; }
+  .section-bryan img {
+    height: 60vh; }
+  .section-bryan p {
+    width: 81%;
+    font-size: large; }
+
+.section-kevin {
+  font-size: large; }
+  .section-kevin img {
+    height: 45vh;
+    padding-bottom: 10px; }
+
+.only-fight {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.575), black, rgba(255, 0, 0, 0.575));
+  display: grid;
+  justify-items: center; }
+  .only-fight img {
+    margin-bottom: 15px;
+    height: 40vh; }
+
+.blast-training {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.575), black, rgba(0, 0, 255, 0.575));
+  display: grid;
+  justify-items: center; }
+  .blast-training img {
+    margin-bottom: 15px;
+    height: 40vh; }
+
+.ultra-cycle {
+  background-image: linear-gradient(rgba(0, 128, 0, 0.582), black, rgba(0, 128, 0, 0.575));
+  display: grid;
+  justify-items: center; }
+  .ultra-cycle img {
+    height: 40vh;
+    margin-bottom: 15px; }
+
+main h3 {
+  color: white; }
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px; }
+  main .grid-container img {
+    height: 50vh;
+    padding: 10px;
+    transition: all 300ms; }
+    main .grid-container img:hover {
+      transform: scale(1.1, 1.1); }
+
+.accordion-button {
+  color: red !important; }
+
+.contacto {
+  padding: 15px; }
+  .contacto h2 {
+    color: white; }
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+  align-items: center;
+  margin: 0%;
+  background-color: gray;
+  padding-left: 0; }
+  footer ul li {
+    list-style: none;
+    display: grid;
+    justify-items: center;
+    height: 15px;
+    align-content: space-around;
+    grid-template-rows: 35px; }
+    footer ul li a {
+      color: white; }
+      footer ul li a:hover {
+        font-weight: bold;
+        color: white; }
+        footer ul li a:hover:active {
+          color: black; }
+    footer ul li .fa-instagram,
+    footer ul li .fa-whatsapp,
+    footer ul li .fa-facebook,
+    footer ul li .fa-message {
+      transform: scale(1.5, 1.5); }
+
+@media (max-width: 990px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr !important; }
+  .grid-container img {
+    transform: scale(0.8, 0.9); } }
+
+@media (max-width: 750px) {
+  .section-marisol,
+  .section-bryan,
+  .section-kevin {
+    display: grid;
+    justify-items: center; }
+  .section-marisol img {
+    padding-bottom: 25px; }
+  .section-bryan p {
+    padding-bottom: 50px;
+    width: 100%; }
+  .only-fight img {
+    width: 35ch; }
+  .blast-training img {
+    width: 33ch; }
+  .ultra-cycle img {
+    width: 34ch; } }

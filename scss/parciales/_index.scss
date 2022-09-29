@@ -1,0 +1,19 @@
+main {
+    .banner {
+        width: 100%;
+        height: 400px;
+    }
+
+    .texto-index {
+        color: white;
+    }
+
+    .frame {
+        display: flex;
+        justify-content: center;
+
+        .youtube {
+            margin: 1%;
+        }
+    }
+}

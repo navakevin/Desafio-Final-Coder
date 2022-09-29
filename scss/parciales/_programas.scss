@@ -1,0 +1,44 @@
+.only-fight {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.575), black, rgba(255, 0, 0, 0.575));
+    display: grid;
+    justify-items: center;
+
+    h1 {
+        @extend %textoprogramas;
+    }
+
+    img {
+        margin-bottom: 15px;
+        height: 40vh;
+    }
+}
+
+.blast-training {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.575), black, rgba(0, 0, 255, 0.575));
+    display: grid;
+    justify-items: center;
+
+    h1 {
+        @extend %textoprogramas;
+    }
+
+    img {
+        margin-bottom: 15px;
+        height: 40vh;
+    }
+}
+
+.ultra-cycle {
+    background-image: linear-gradient(rgba(0, 128, 0, 0.582), black, rgba(0, 128, 0, 0.575));
+    display: grid;
+    justify-items: center;
+
+    h1 {
+        @extend %textoprogramas;
+    }
+
+    img {
+        height: 40vh;
+        margin-bottom: 15px;
+    }
+}

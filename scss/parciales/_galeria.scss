@@ -1,0 +1,24 @@
+main {
+    h3 {
+        color: white;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+
+        img {
+            height: 50vh;
+            padding: 10px;
+            transition: all 300ms;
+            &:hover{
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+}
